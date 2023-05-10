@@ -1,0 +1,23 @@
+.border_number{
+    border: 1px solid #24053e;
+    border-radius: 100%;
+    font-family: 'Fraunces', serif;
+    color:#24053e;
+}
+
+#benefits h2{
+    font-family: 'Fraunces', serif;
+    color:#24053e;
+}
+
+#benefits p{
+    color: #584D62;
+}
+
+.founder_image{
+
+}
+
+.founder{
+    background-color: #24053e;
+}
