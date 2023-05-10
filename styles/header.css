@@ -16,7 +16,7 @@ header:before {
     border-radius: 0 0 100% 100% / 0 0 10% 10%
 }
 
-header .content {
+header #content {
     position: relative;
     z-index: 1; 
     text-align: center;
@@ -34,12 +34,14 @@ header h2{
     border-bottom: 2px solid #44FFA1;
 }
 
-.learn_more_button{
+.green_button, .green_button:hover, .green_button:active {
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
     background-color: #44FFA1;
     border: none;
     padding: 1rem 1.7rem;
     color: #24053e;
+
 }
+
 
