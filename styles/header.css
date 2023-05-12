@@ -1,6 +1,7 @@
 @import url("./main.css");
 
 header{
+    background-color: #FCF8FF;
     position: relative;
     width: 100%;
 }
@@ -18,20 +19,63 @@ header:before {
 
 header #content {
     position: relative;
-    z-index: 1; 
-    text-align: center;
+    z-index: 1;
 }
 
-header a{
+.logo_and_link{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 1em 0 1em;
+}
+
+.logo{
+    width: 25%;
+}
+
+.underlined_link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+    font-family: 'Manrope', sans-serif;
+    border-bottom: 2px solid #44FFA1;   
+}
+
+.main_title_and_green_link_and_phone_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding-top: 3.5rem;
+    
+}
+
+.main_title {
+    font-size: 2.5rem;
+    color: white;
+    padding: 0 1.6rem;
+    font-family: 'Fraunces', serif;
+    
+}
+
+.main_title span {
+    border-bottom: 2px solid #44FFA1;
+}
+
+.green_link{
+    text-decoration: none;
+    color: #24053e;
+    background-color: #44FFA1;
+    padding: 1.1rem;
+    font-weight: bold;
     font-family: 'Manrope', sans-serif;
 }
 
-header h2{
- font-family: 'Fraunces', serif;
-}
-
-.underlined{
-    border-bottom: 2px solid #44FFA1;
+.phone{
+    width: 320px;
+    padding-top: 3rem;
 }
 
 .green_button, .green_button:hover, .green_button:active {
@@ -41,7 +85,6 @@ header h2{
     border: none;
     padding: 1rem 1.7rem;
     color: #24053e;
-
 }
 
 
