@@ -1,25 +1,29 @@
-.border_number{
-    border: 1px solid #24053e;
-    border-radius: 100%;
-    font-family: 'Fraunces', serif;
-    color:#24053e;
+#benefits-section{
+    padding: 4rem 0;
+    position: relative;
+    width: 100%;
 }
 
-.benefits{
+#benefits-section:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 100% 100% / 0 0 10% 10%;
+    background: #FCF8FF;
+}
+
+#benefits-section .benefits-div{
+    position: relative;
+    z-index: 1;
+}
+
+.benefits-div{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
-}
-
-.founder_image{
-position: relative;
-}
-
-.founder{
-    z-index: 1;
-    background-color: #24053e;
-    position: relative;
-    bottom: 65px; 
+    gap: 1rem;
 }
 
 .benefit{
@@ -28,4 +32,65 @@ position: relative;
     justify-content: center;
     text-align: center;
     align-items: center;
+    padding: 0 1rem;
 }
+
+.border_number{
+    border: 1px solid #24053e;
+    border-radius: 74%;
+    padding: .7em 1.05em;
+    font-family: 'Fraunces', serif;
+    color:#24053e;
+}
+
+.benefit_title{
+    font-family: 'Fraunces', serif;
+    color:#24053e;
+    font-size: 1.6rem;
+}
+
+.benefit_description{
+    font-family: 'Manrope', sans-serif;
+    font-size: .9rem;
+    color: #584D62;
+    line-height: 25px;
+}
+
+#founder-section{
+    padding: 7rem 1rem 0 1rem;
+}
+
+.founder_div{
+    text-align: center;
+    position: relative;
+}
+
+.founder_info{
+    background-color: #24053e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    position: relative;
+    bottom: 50px;
+}
+
+.founder_image{
+    width: 280px;
+}
+
+.founder_title{
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.founder_description{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    padding: 0 1.3rem;
+    line-height: 30px;
+}
+
