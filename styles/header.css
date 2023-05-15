@@ -24,22 +24,31 @@ header #content {
     display: flex;  
     justify-content: space-between;
     align-items: center;
-    padding: 2em 1em 0 1em;
+    padding: 2em 1em 0 1em;  
 }
 
 .logo{
-    width: 25%;
+    width: 100px;
 }
 
 .underlined_link{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-family: 'Manrope', sans-serif;
     border-bottom: 2px solid #44FFA1;   
 }
 
-.main_title_and_green_link_and_phone_image{
+.underlined_link:hover{
+    color: #44FFA1;
+    transition: .3s;
+}
+
+.bigger_spiral, .smaller_spiral{
+    display: none
+}
+
+.main_title_and_green_link_and_phone_image_div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,11 +59,11 @@ header #content {
 }
 
 .main_title {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     color: white;
     padding: 0 1.6rem;
     font-family: 'Fraunces', serif;
-    
+    max-width: 324px;
 }
 
 .main_title span {
@@ -65,13 +74,42 @@ header #content {
     text-decoration: none;
     color: #24053e;
     background-color: #44FFA1;
+    border: 2px solid #44FFA1;
     padding: 1rem 1.5rem;
     font-weight: bold;
     font-family: 'Manrope', sans-serif;
 }
 
+.green_link:hover{
+    background-color: #24053e;
+    color:#44FFA1;
+    transition: .3s;
+}
+
 .phone{
     width: 320px;
     padding-top: 3rem;
+}
+
+@media(min-width:768px) {
+    
+    .main_title {
+        font-size: 3rem;
+        max-width: 450px       
+    }
+
+    .bigger_spiral{
+        display: block;
+    }
+
+    .smaller_spiral{
+        display: block;
+        background-image: left center;
+        
+    }
+
+    .phone{
+        width: 470px;
+    }
 }
 
