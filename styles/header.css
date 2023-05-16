@@ -98,14 +98,39 @@ header #content {
         max-width: 450px       
     }
 
+    .main_title_and_green_link_and_phone_image_div{
+    }
+
     .bigger_spiral{
+        position: absolute;
         display: block;
+        width: 110px;
+        height: 300px;  
+        top: 110px;
+        left: 0;
+    }
+
+    .bigger_spiral_img{
+        width: 120px;
+        height: 300px;
+        object-fit:none;
+        object-position:right;        
     }
 
     .smaller_spiral{
-        display: block;
-        background-image: left center;
-        
+        position: absolute;
+        display: block;     
+        width: 75px;
+        height: 300px;
+        top: 260px;
+        right: 0;    
+    }
+
+    .smaller_spiral_img{
+        width: 75px;
+        height: 230px;
+        object-fit: none;
+        object-position: left;
     }
 
     .phone{
