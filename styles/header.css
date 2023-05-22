@@ -20,7 +20,7 @@ header #content {
     z-index: 1;
 }
 
-.logo_and_link{
+.logo_and_link_div{
     display: flex;  
     justify-content: space-between;
     align-items: center;
@@ -44,7 +44,7 @@ header #content {
     transition: .3s;
 }
 
-.bigger_spiral, .smaller_spiral{
+.bigger_spiral_div, .smaller_spiral_div{
     display: none
 }
 
@@ -53,17 +53,17 @@ header #content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
     text-align: center;
-    padding-top: 3.5rem;
+    gap: 1rem;   
+    margin-top: 3.5rem;
 }
 
 .main_title {
-    font-size: 2.6rem;
+    font-size: 2.9rem;
     color: white;
-    padding: 0 1.6rem;
     font-family: 'Fraunces', serif;
-    max-width: 324px;
+    font-weight: 400;
+    max-width: 343px;
 }
 
 .main_title span {
@@ -88,20 +88,18 @@ header #content {
 
 .phone{
     width: 320px;
-    padding-top: 3rem;
+    height: 184px;
+    margin-top: 3rem;
 }
 
 @media(min-width:768px) {
     
     .main_title {
-        font-size: 3rem;
+        font-size: 3.8rem;
         max-width: 450px       
     }
 
-    .main_title_and_green_link_and_phone_image_div{
-    }
-
-    .bigger_spiral{
+    .bigger_spiral_div{
         position: absolute;
         display: block;
         width: 110px;
@@ -117,7 +115,7 @@ header #content {
         object-position:right;        
     }
 
-    .smaller_spiral{
+    .smaller_spiral_div{
         position: absolute;
         display: block;     
         width: 75px;
@@ -134,7 +132,8 @@ header #content {
     }
 
     .phone{
-        width: 470px;
+        width: 514px;
+        height: 296px;
     }
 }
 
