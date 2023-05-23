@@ -29,6 +29,7 @@ header #content {
 
 .logo{
     width: 100px;
+    scroll-behavior: smooth;
 }
 
 .underlined_link{
@@ -37,6 +38,7 @@ header #content {
     font-size: 1.1rem;
     font-family: 'Manrope', sans-serif;
     border-bottom: 2px solid #44FFA1;   
+    scroll-behavior: smooth;
 }
 
 .underlined_link:hover{
@@ -44,7 +46,7 @@ header #content {
     transition: .3s;
 }
 
-.bigger_spiral_div, .smaller_spiral_div{
+.header_bigger_spiral_div, .header_smaller_spiral_div{
     display: none
 }
 
@@ -78,6 +80,7 @@ header #content {
     padding: 1rem 1.5rem;
     font-weight: bold;
     font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .green_link:hover{
@@ -99,7 +102,7 @@ header #content {
         max-width: 450px       
     }
 
-    .bigger_spiral_div{
+    .header_bigger_spiral_div{
         position: absolute;
         display: block;
         width: 110px;
@@ -115,7 +118,7 @@ header #content {
         object-position:right;        
     }
 
-    .smaller_spiral_div{
+    .header_smaller_spiral_div{
         position: absolute;
         display: block;     
         width: 75px;
@@ -134,6 +137,32 @@ header #content {
     .phone{
         width: 514px;
         height: 296px;
+    }
+}
+@media(min-width: 1440px){
+    
+    .main_title {
+        font-size: 4.5rem;
+        max-width: 530px      
+    }
+
+    .bigger_spiral_img{
+        width: 200px;
+    }
+
+    .header_smaller_spiral_div{    
+        width: 120px;
+        height: 320px;  
+    }
+
+    .smaller_spiral_img{
+        width: 120px;
+        height: 330px;
+    }
+
+    .phone{
+        width: 767px;
+        height: 441px;
     }
 }
 
