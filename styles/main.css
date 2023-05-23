@@ -17,7 +17,7 @@
 
 #benefits-section .benefits-div{
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .benefits-div{
@@ -156,25 +156,19 @@
     }
    
     .founder_title{
-        color: white;
-        font-family: 'Fraunces', serif;
         font-size: 2.4rem;
-        margin: 0;
         text-align: start;
-        margin: 0 3rem;
+        margin-left: 3rem;
     }
     
     .founder_description{
-        color: white;
-        font-family: 'Manrope', sans-serif;
-        font-size: 1rem;   
-        line-height: 30px;  
+        font-size: 1.1rem;   
         text-align: start;    
         margin: 0 3rem;
     }
 
     .founder_info_div .green_link{
-        margin: 0 3rem;
+        margin-left: 3rem;
     }
     
     .founder_spiral_div{
@@ -189,6 +183,61 @@
         height: 207px;
         left: 320px;
         bottom: 0px;
+    }    
+}
+
+@media(min-width: 1440px){
+
+    .benefits-div{
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .benefit_div{
+        flex-direction: column;
+        gap: 1rem;       
+    }
+
+    .benefit_info_div{
+        align-items: center;
+        text-align: center;
+    }
+
+    .benefit_title{
+        font-size: 2rem;
+    }
+
+    .benefit_description{
+        width: 320px;
     }
     
+    .founder_div{
+        width: 1112px;
+        height: 647px;
+    }
+    
+    .founder_info_div{      
+        width: 730px;
+        height: 413px;          
+        gap: 2.5rem;
+        padding: 2rem 0;       
+    }
+
+    .founder_image{
+        width: 477px;
+        height: 477px;
+    }
+   
+    .founder_title{
+        font-size: 3.2rem;
+    }
+    
+    .founder_description{
+        font-size: 1.2rem;    
+    }
+
+    .founder_spiral_img{
+        left: 440px;
+        bottom: 20px;
+    }   
 }
