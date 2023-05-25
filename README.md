@@ -4,10 +4,14 @@
 <p>I started practicing my coding skills with Frontend mentor challenges, these challenges give you the design on figma and all the files you're going to need (like images and icons) and then all you have to do is build the design!</p>
 <p>This is my solution for the Workit landing page challenge. The website is responsive and it has 3 different layouts according to the screen size. To make this website I used HTML and CSS</p>
 
+<p> I also posted this project on my LinkedIn: https://www.linkedin.com/in/lucas-gon%C3%A7alves-3a2662252/ </p>
+
 <h3>//PT-BR//</h3>
 
 <p>Comecei a praticar minhas coding skills com os desafios do site Frontend Mentor, esses desafios fornecem o design no figma e todos os arquivos necessários (como imagens e ícones) e tudo o que você precisa fazer é criar o design!</p>
 <p>Esta é a minha solução para o desafio Workit landing page. O site é responsivo e possui 3 layouts diferentes de acordo com o tamanho da tela. Para fazer este site usei HTML e CSS.</p>
+
+<p>Também postei esse projeto no meu LinkedIn: https://www.linkedin.com/in/lucas-gon%C3%A7alves-3a2662252/</p>
 
 <h3>Mobile layout (375px)</h3>
 
