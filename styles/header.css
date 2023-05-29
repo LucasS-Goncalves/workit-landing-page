@@ -29,7 +29,6 @@ header #content {
 
 .logo{
     width: 100px;
-    scroll-behavior: smooth;
 }
 
 .underlined_link{
@@ -38,7 +37,6 @@ header #content {
     font-size: 1.1rem;
     font-family: 'Manrope', sans-serif;
     border-bottom: 2px solid #44FFA1;   
-    scroll-behavior: smooth;
 }
 
 .underlined_link:hover{
